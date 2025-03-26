@@ -31,8 +31,8 @@ Current reconciliation systems rely heavily on manual oversight, leading to dela
 
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+
+📹 [Video Demo](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/demo/Demo_video.mp4) (if applicable)  
 
 🖼️ Screenshots:
 
