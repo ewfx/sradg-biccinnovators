@@ -1,0 +1,6 @@
+As of Date,Company,Account,AU,Currency,Primary Account,Secondary Account,GL Balance,IHub Balance,Balance Difference,Match Status,Comments,Deviation (%),Anomaly_Prediction,Anomaly_Score,Rule_Based_Bucket_Name
+7/30/2024,3,1618001,6140,USD,MORTGAGES,DEFERRED ORIGINATION FEES,29706,-20294,-50000,Break,Significant balance discrepancy,-168.3161651,Anomaly,-0.068790112,Reversal or correction entry detected
+1/30/2024,3,1618001,6093,USD,MORTGAGES,INTEREST INCOME,14525,-35475,-50000,Break,Significant balance discrepancy,-344.2340792,Anomaly,-0.089927872,Reversal or correction entry detected
+5/30/2024,3,1619288,5706,INR,ALL OTHER LOANS,DEFERRED COSTS,58982,8982,-50000,Break,Significant balance discrepancy,-84.77162524,Anomaly,-0.016961966,Reversal or correction entry detected
+4/30/2024,0,1619288,6362,GBP,ALL OTHER LOANS,DEFERRED ORIGINATION FEES,18740,68740,50000,Break,Significant balance discrepancy,266.8089648,Anomaly,-0.050792967,Large single-month fluctuation with no prior history
+10/30/2024,2,1623456,6242,USD,CREDIT CARDS,PRINCIPAL,59311,9311,-50000,Break,Significant balance discrepancy,-84.30139435,Anomaly,-0.015462606,Reversal or correction entry detected

@@ -1,0 +1,162 @@
+As of Date,Company,Account,AU,Currency,Primary Account,Secondary Account,GL Balance,IHub Balance,Balance Difference,Match Status,Comments,Deviation (%),Anomaly_Prediction,Anomaly_Score,Rule_Based_Bucket_Name,Insights
+7/30/2024,00003,1618001,6140,USD,MORTGAGES,DEFERRED ORIGINATION FEES,29706,-20294.0,-50000.0,Break,Significant balance discrepancy,-168.3161650844947,Anomaly,-0.06879011202587115,Reversal or correction entry detected,"Root Cause:
+The anomaly indicates that there is a significant difference between the GL balance and the IHub balance. This difference is due to an error in the accounting entries made in the IHub system. Specifically, there is a reversal or correction entry that needs to be made to correct the error.
+
+Potential Corrective Actions:
+To correct the anomaly, the following actions can be taken:
+
+1. Review the accounting entries made in the IHub system to identify the error that led to the reversal or correction entry.
+2. Make the necessary corrections to the accounting entries to ensure that they are accurate and consistent with the GL balance.
+3. Update the IHub balance to reflect the corrected accounting entries.
+4. Review the reconciliation process to ensure that it is working correctly and that there are no other anomalies that need to be addressed.
+5. Implement additional controls to prevent similar errors from occurring"
+1/30/2024,00003,1618001,6093,USD,MORTGAGES,INTEREST INCOME,14525,-35475.0,-50000.0,Break,Significant balance discrepancy,-344.2340791738382,Anomaly,-0.08992787159528404,Reversal or correction entry detected,"Root Cause:
+The anomaly indicates that there is a significant difference between the GL balance and the IHub balance. This difference is due to an error in the accounting system, which has resulted in an incorrect posting of transactions. Specifically, the system has recorded a transaction that should have been reversed or corrected, resulting in a negative balance in the IHub account.
+
+Potential Corrective Actions:
+To correct this anomaly, the following actions can be taken:
+
+1. Review the transaction that resulted in the negative balance in the IHub account and determine the reason for the error. This could be due to a mistake in data entry, a system glitch, or an incorrect accounting rule.
+
+2. Once the cause of the error has been identified, correct the transaction by reversing or adjusting the posting. This will ensure that the GL and IHub balances are consistent and accurate.
+
+3. Implement measures to"
+5/30/2024,00003,1619288,5706,INR,ALL OTHER LOANS,DEFERRED COSTS,58982,8982.0,-50000.0,Break,Significant balance discrepancy,-84.77162524159914,Anomaly,-0.016961966429879016,Reversal or correction entry detected,"Root Cause:
+The anomaly indicates that there is a difference of INR 50,000 between the GL balance and the IHub balance. This difference could be due to a variety of reasons, including errors in recording transactions, incorrect posting of journal entries, or discrepancies in the accounting system.
+
+Corrective Actions:
+To correct this anomaly, the following actions can be taken:
+
+1. Review the transactions recorded in the accounting system and verify their accuracy. This may involve reconciling bank statements, reviewing invoices and receipts, and ensuring that all transactions have been properly recorded.
+2. Investigate the cause of the discrepancy between the GL and IHub balances. This may involve reviewing the accounting system and identifying any errors or inconsistencies that may be contributing to the difference.
+3. Correct any errors or inconsistencies that are found. This may involve making"
+4/30/2024,00000,1619288,6362,GBP,ALL OTHER LOANS,DEFERRED ORIGINATION FEES,18740,68740.0,50000.0,Break,Significant balance discrepancy,266.8089647812166,Anomaly,-0.050792967439736825,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant change in the company's financial position, such as a major acquisition or divestment, which could have affected the company's cash flow and balance sheet. Another possible cause is a system error or data entry mistake, which could have resulted in incorrect accounting entries or transactions being recorded.
+
+Corrective Actions:
+To address the large single-month fluctuation in the balance difference, the company should conduct a thorough investigation to determine the root cause of the anomaly. This investigation should involve reviewing the company's financial statements, transactions, and accounting records to identify any unusual or suspicious activity. If the cause is determined to be a system error or data entry mistake, the company should take steps to correct the error and prevent similar mistakes from occurring in the future. If the"
+10/30/2024,00002,1623456,6242,USD,CREDIT CARDS,PRINCIPAL,59311,9311.0,-50000.0,Break,Significant balance discrepancy,-84.30139434506246,Anomaly,-0.015462605904815296,Reversal or correction entry detected,"Root Cause:
+The anomaly indicates that there is a significant difference between the GL balance and the IHub balance. This difference is due to an error in the accounting entries made in the IHub system. Specifically, the IHub system has recorded a higher balance than the GL balance, resulting in a negative balance difference.
+
+Potential Corrective Actions:
+
+1. Review and correct the accounting entries made in the IHub system to ensure that they match the GL balance. This may involve reviewing transaction records, reconciling accounts, and adjusting entries as necessary.
+2. Update the IHub system to prevent similar errors from occurring in the future. This may involve implementing new controls, improving data validation processes, or providing additional training to IHub users.
+3. Notify the relevant stakeholders, such as management, auditors, and investors, of the anomaly and the corrective actions taken. This may involve providing a"
+5/30/2024,00001,1618001,5951,GBP,ALL OTHER LOANS,INTEREST INCOME,18097,-31903.0,-50000.0,Break,Significant balance discrepancy,-276.28888766093826,Anomaly,-0.06027963102094025,Reversal or correction entry detected,"Root Cause:
+The anomaly is caused by a discrepancy between the GL balance and the IHub balance. The GL balance is higher than the IHub balance, indicating that there may be an error in the accounting records or an unrecorded transaction. The difference between the two balances is significant, which suggests that the error may have occurred over a period of time.
+
+Potential Corrective Actions:
+
+1. Review the accounting records: The first step is to review the accounting records to identify the source of the discrepancy. This may involve reviewing bank statements, invoices, and other financial documents to ensure that all transactions have been recorded accurately.
+
+2. Investigate unrecorded transactions: If there are any unrecorded transactions, they should be investigated to determine their impact on the financial statements. This may involve contacting vendors or customers to obtain missing information or to verify the accuracy of transactions."
+8/30/2024,00002,1618001,4952,USD,ALL OTHER LOANS,PRINCIPAL,55350,105350.0,50000.0,Break,Significant balance discrepancy,90.33423667570008,Anomaly,-0.010446570510598496,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant accounting error or discrepancy that occurred during the month in question. This could be the result of a mistake made by the accounting team or an issue with the accounting software used to record transactions. Another possible cause is a change in accounting policies or procedures that was implemented during the month, which may have affected the way transactions were recorded or classified. Additionally, the large balance difference could be the result of a one-time event or transaction that had a significant impact on the company's financial position, such as a major acquisition or divestiture.
+
+Potential Corrective Actions:
+To address the large balance difference and prevent similar anomalies from occurring in the future, the company should take the following corrective actions:
+
+1. Conduct a thorough review of"
+12/30/2024,00001,1618001,4513,EUR,ALL OTHER LOANS,DEFERRED COSTS,53743,103743.0,50000.0,Break,Significant balance discrepancy,93.03537204845283,Anomaly,-0.017110404719290373,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant accounting error or adjustment that was made to the GL account, which was not reflected in the IHub account. This could have occurred due to a human error, a system error, or a change in accounting policies. Another possible cause is a large transaction that was not properly recorded in either the GL or IHub account, resulting in a discrepancy between the two. This could be due to a failure to capture the transaction or an incorrect recording of the transaction.
+
+Corrective Actions:
+To correct the anomaly, the following actions should be taken:
+
+1. Investigate the root cause of the balance difference by reviewing the GL and IHub accounts and any transactions that occurred during the month in question. This will help to identify the cause of the anomaly"
+11/30/2024,00001,1619288,6406,USD,MORTGAGES,INTEREST INCOME,22094,72094.0,50000.0,Break,Significant balance discrepancy,226.30578437584865,Anomaly,-0.020716760868251027,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant accounting error or adjustment that was made to the GL account. This could have resulted in a large increase or decrease in the balance, which was not reflected in the IHub account until the next month. Another possible cause is a change in accounting policies or procedures, which may have affected the way transactions were recorded in the GL account. This could have resulted in a discrepancy between the GL and IHub balances, which may have been exacerbated by a large transaction or series of transactions.
+
+Corrective Actions:
+To address the large single-month fluctuation in the balance difference between the GL and IHub accounts, the following corrective actions could be taken:
+
+1. Conduct a thorough review of the GL account to identify any errors or adjust"
+6/30/2024,00003,1619205,5075,GBP,MORTGAGES,INTEREST INCOME,15656,65656.0,50000.0,Break,Significant balance discrepancy,319.3663771078181,Anomaly,-0.09883073414389465,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant change in the company's financial position, such as a major acquisition or divestment, which could have affected the company's cash flow and balance sheet. Another possible cause is a technical error or system glitch, which could have resulted in incorrect accounting entries or data transfers.
+
+Corrective Actions:
+To address the anomaly, the company should conduct a thorough investigation to determine the root cause of the balance difference. This may involve reviewing financial statements, transaction records, and system logs to identify any unusual or suspicious activity. If the cause is determined to be a technical error or system glitch, the company should take steps to correct the issue and prevent similar errors from occurring in the future. This may involve implementing new controls or procedures, upgrading software or"
+10/30/2024,00000,1619205,6393,INR,MORTGAGES,DEFERRED ORIGINATION FEES,21197,-28803.0,-50000.0,Break,Significant balance discrepancy,-235.882436193801,Anomaly,-0.06028391411338463,Reversal or correction entry detected,"Root Cause:
+The anomaly indicates that there is a significant difference between the GL balance and the IHub balance of the account. This difference is due to an incorrect entry made in the IHub system, which resulted in a reversal or correction entry. The cause of this incorrect entry is not clear from the given information, but it could be due to human error, system glitch, or data entry mistakes.
+
+Potential Corrective Actions:
+To correct this anomaly, the following actions can be taken:
+
+1. Investigate the cause of the incorrect entry: The first step is to identify the root cause of the incorrect entry. This could involve reviewing the transaction history, verifying the data entry, or investigating any system issues that may have caused the error.
+2. Reverse the incorrect entry: Once the cause of the incorrect entry has been identified, the next step is to reverse the entry. This can be done"
+10/30/2024,00000,1619205,4810,GBP,ALL OTHER LOANS,INTEREST INCOME,89383,109383.0,20000.0,Break,Significant balance discrepancy,22.375619524965597,Anomaly,-0.021628243783780254,Huge spike in outstanding balances,"Root Cause:
+The huge spike in outstanding balances could be due to a number of reasons. One possibility is that there was a delay in processing transactions, leading to a backlog of unrecorded transactions. This could have occurred due to technical issues with the accounting system or human error. Another possibility is that there was a change in accounting policies or procedures, leading to a change in the way transactions were recorded. This could have been due to changes in accounting standards or changes in the company's internal policies.
+
+Corrective Actions:
+To address the huge spike in outstanding balances, the following corrective actions could be taken:
+
+1. Review the accounting system to identify any technical issues that may have caused the delay in processing transactions. If technical issues are found, they should be addressed promptly to prevent any further delays.
+
+2. Review the accounting policies and procedures to ensure that they are in line with the company'"
+2/30/2024,00003,1619288,6589,USD,ALL OTHER LOANS,DEFERRED ORIGINATION FEES,92304,142304.0,50000.0,Break,Significant balance discrepancy,54.16883342000347,Anomaly,-0.04516403374269218,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant change in the company's financial position, such as a major acquisition or divestiture, which could have affected the company's cash flows and liquidity. Another possible cause is a system error or data entry mistake, which could have resulted in incorrect accounting entries or transactions being recorded in the GL or IHub accounts.
+
+Corrective Actions:
+To address the large single-month fluctuation in the balance difference, the company should conduct a thorough investigation to determine the root cause of the anomaly. This investigation should involve reviewing the company's financial statements, accounting records, and transactional data to identify any unusual or suspicious activity. If the investigation reveals a system error or data entry mistake, the company should take corrective action to ensure that the error is corrected and"
+8/30/2024,00001,1619288,6887,EUR,ALL OTHER LOANS,DEFERRED COSTS,35334,-14666.0,-50000.0,Break,Significant balance discrepancy,-141.50676402332033,Anomaly,-0.07481488269189673,Reversal or correction entry detected,"Root Cause:
+The anomaly is caused by a reversal or correction entry in the GL account. This could be due to an error in the accounting system or a manual adjustment made by an accountant. The IHub balance is negative, indicating that there may be a discrepancy between the GL and IHub balances.
+
+Corrective Actions:
+To correct the anomaly, the accountant should review the GL account and identify the source of the reversal or correction entry. If it was an error in the accounting system, the accountant should correct the error and update the GL account accordingly. If it was a manual adjustment, the accountant should verify the reason for the adjustment and ensure that it was made correctly.
+
+Once the corrective action has been taken, the accountant should update the GL and IHub balances to reflect the corrected amount. The balance difference should be recorded in the GL account as a journal entry"
+2/30/2024,00003,1618001,6899,EUR,MORTGAGES,DEFERRED COSTS,88061,138061.0,50000.0,Break,Significant balance discrepancy,56.778823769886785,Anomaly,-0.030167324658081363,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant change in the company's financial position, such as a major acquisition or divestiture, which could have affected the company's cash flows and balance sheet. Another possible cause is a data entry error or a system issue that could have resulted in incorrect accounting entries or balances.
+
+Corrective Actions:
+To address the anomaly, the following corrective actions could be taken:
+
+1. Investigate the cause of the balance difference: The first step would be to determine the root cause of the balance difference. This could involve reviewing the company's financial statements, accounting records, and transactional data to identify any unusual or significant events that could have affected the balance sheet.
+2. Correct any errors or discrepancies: If a data entry error"
+4/30/2024,00003,1619288,4818,GBP,MORTGAGES,DEFERRED ORIGINATION FEES,18734,38734.0,20000.0,Break,Significant balance discrepancy,106.75776662752214,Anomaly,-0.042635946417322934,Large single-month fluctuation with no prior history,"Root Cause:
+The large single-month fluctuation in the balance difference between the GL and IHub accounts could be due to a number of factors. One possible cause is a significant change in the company's financial position, such as a major acquisition or divestment, which could have affected the company's cash flow and balance sheet. Another possible cause is a technical error or system glitch, which could have resulted in incorrect accounting entries or data transfers.
+
+Corrective Actions:
+To address the anomaly, the company should conduct a thorough investigation to determine the root cause of the balance difference. This may involve reviewing financial statements, transaction records, and system logs to identify any unusual or suspicious activity. If the cause is determined to be a technical error or system glitch, the company should take steps to correct the issue and prevent similar errors from occurring in the future. This may involve implementing new controls or procedures to ensure the accuracy and integrity"
+6/30/2024,00001,1619288,5701,INR,CREDIT CARDS,INTEREST INCOME,76177,26177.0,-50000.0,Break,Significant balance discrepancy,-65.63660947530094,Anomaly,-0.040851199828004114,Reversal or correction entry detected,"Root Cause:
+The balance difference between GL and IHub indicates that there is a discrepancy in the accounting records of the company. This could be due to errors in recording transactions, incorrect posting of entries, or fraudulent activities.
+
+Potential Corrective Actions:
+1. Review and verify all transactions recorded in the GL and IHub accounts to identify any errors or discrepancies.
+2. Investigate the cause of the discrepancy and take appropriate corrective actions, such as adjusting journal entries or issuing a correction entry.
+3. Implement stronger internal controls to prevent similar discrepancies from occurring in the future.
+4. Conduct an audit of the accounting records to ensure their accuracy and completeness.
+5. Notify the relevant authorities if fraudulent activities are suspected."
+7/30/2024,00003,1619288,5799,EUR,ALL OTHER LOANS,PRINCIPAL,95122,75122.0,-20000.0,Break,Significant balance discrepancy,-21.02563024326654,Anomaly,-0.028034621035255336,Sudden drop in outstanding balances,"Root Cause:
+The sudden drop in outstanding balances could be due to a number of reasons, including:
+
+1. Inaccurate accounting entries: Incorrect entries in the GL account could have resulted in an overstatement of the balance.
+2. Incorrect IHub entries: Incorrect entries in the IHub account could have resulted in an understatement of the balance.
+3. Incorrect reconciliation: Incorrect reconciliation of the GL and IHub accounts could have resulted in a discrepancy in the balance.
+4. Incorrect data entry: Incorrect data entry in the accounting system could have resulted in an overstatement or understatement of the balance.
+
+Corrective Actions:
+To correct the sudden drop in outstanding balances, the following actions can be taken:
+
+1. Review and correct accounting entries: Review the GL account entries and correct any errors that may have resulted in an overstatement of the balance."
+5/30/2024,00001,1619288,4215,GBP,CREDIT CARDS,DEFERRED COSTS,11001,-38999.0,-50000.0,Break,Significant balance discrepancy,-454.50413598763754,Anomaly,-0.1595494112523076,Reversal or correction entry detected,"Root Cause:
+The anomaly is caused by a reversal or correction entry in the IHub balance. This indicates that there was an error in the initial recording of the transaction, which resulted in an incorrect GL balance. The difference between the GL and IHub balances is -50000.0, which suggests that the initial recording of the transaction was overstated by 50000.0.
+
+Potential Corrective Actions:
+To correct the anomaly, the following actions can be taken:
+
+1. Review the transaction that resulted in the incorrect GL balance and identify the error.
+2. Adjust the GL balance to reflect the correct amount of the transaction.
+3. Reverse the correction entry in the IHub balance to reflect the correct amount of the transaction.
+4. Reconcile the GL and IHub balances to ensure that they are in agreement.
+5. Document the"
+3/30/2024,00000,1623456,6699,INR,MORTGAGES,DEFERRED COSTS,69044,19044.0,-50000.0,Break,Significant balance discrepancy,-72.41758878396385,Anomaly,-0.01243222150413481,Reversal or correction entry detected,"Root Cause:
+The balance difference between GL and Ihub indicates that there is a discrepancy in the accounting records of the company. This could be due to errors in recording transactions, incorrect posting of entries, or fraudulent activities.
+
+Potential Corrective Actions:
+1. Review and verify all transactions recorded in the GL and Ihub accounts to identify any errors or discrepancies.
+2. Investigate the source of the discrepancy and take appropriate corrective actions, such as adjusting journal entries or issuing a correction entry.
+3. Implement stronger internal controls to prevent similar discrepancies from occurring in the future.
+4. Conduct an audit of the accounting records to ensure their accuracy and completeness.
+5. Notify the relevant authorities if fraudulent activities are suspected."

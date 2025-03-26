@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BICC Innovators</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<body>
+    <!-- hero - start -->
+    <div class="bg-white pb-6 sm:pb-8 lg:pb-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <header class="mb-4 flex items-center justify-between py-4 md:py-8">
+                <!-- logo - start -->
+                <a href="/" class="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl"
+                    aria-label="logo">
+
+                    Anomaly Detection
+                </a>
+                <!-- logo - end -->
+
+                <!-- nav - start -->
+                <nav class="hidden gap-12 lg:flex">
+                    <a href="/" class="text-lg font-semibold text-indigo-500">Home</a>
+                    <a href="#"
+                        class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">About</a>
+                    <a href="#"
+                        class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Training</a>
+                    <a href="#"
+                        class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Anomalies
+                        Detection</a>
+                </nav>
+                <!-- nav - end -->
+
+                <!-- buttons - start -->
+                <a href="/detection"
+                    class="hidden rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:inline-block">Detect
+                    Anomalies</a>
+
+                <button type="button"
+                    class="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-2.5 py-2 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                    Menu
+                </button>
+                <!-- buttons - end -->
+            </header>
+        </div>
+    </div>
+    <!-- hero - end -->
+
+
+    <div class="bg-white py-6 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+            <!-- text - start -->
+            <div class="mb-10 md:mb-16">
+                <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Smarter Reconciliation
+                    and Anomaly Detection using Gen AI</h2>
+
+                <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Detect Anomalies using
+                    historical and real-time data
+                    • Classify detected anomalies for categorization
+                    • Generate resolution summaries using AI insights
+                </p>
+            </div>
+            <!-- text - end -->
+            <p class="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2"><b>Select CSV file for Anomaly detection</b>
+            </p><br>
+
+            <form class="row g-3 mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2" method="POST"
+                action="/anomaly_detection" enctype="multipart/form-data">
+
+                <div class="col-auto">
+                    <!-- <label for="last-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">GL Balance*</label> -->
+                    <input name="file" id="file" type="file" accept=".csv"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                </div>
+            </form>
+
+            <br><br>
+            <p class="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2"><b>Or, If you want to enter manually !!</b></p>
+            <br><br>
+
+            <!-- form - start -->
+            <form class="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2" method="POST" action="/detection">
+
+                <div>
+                    <label for="last-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">GL
+                        Balance*</label>
+                    <input name="glbalance" id="glbalance"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+                <div>
+                    <label for="first-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">IHub
+                        Balance*</label>
+                    <input name="ihubbalance" id="ihubbalance"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="last-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Balance
+                        Difference*</label>
+                    <input name="balancedifference" id="balancedifference"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="first-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">As of
+                        Date*</label>
+                    <input name="date" id="date" type="date"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="last-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Company*</label>
+                    <input name="company" id="company"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="first-name"
+                        class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Account*</label>
+                    <input name="account" id="account"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="last-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">AU*</label>
+                    <input name="au" id="au"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="first-name"
+                        class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Currency*</label>
+                    <input name="currency" id="currency"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+                <div>
+                    <label for="last-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Primary
+                        Account*</label>
+                    <input name="paccount" id="paccount"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+                <div>
+                    <label for="first-name" class="mb-2 inline-block text-sm text-gray-800 sm:text-base">Secondary
+                        Account*</label>
+                    <input name="saccount" id="saccount"
+                        class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                </div>
+
+
+
+                <div class="flex items-center justify-between sm:col-span-2">
+                    <button
+                        class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
+                        type="submit">Submit</button>
+
+
+                </div>
+
+
+            </form>
+            <!-- form - end -->
+
+            {% if predictions_df %}
+            <h2>Predicted Results</h2>
+            <div style="overflow-x: auto;">
+                {{ predictions_df | safe }}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+
+
+
+
+    <!-- footer - start -->
+    <footer class="bg-white">
+
+
+        <div class="border-t py-8 text-center text-sm text-gray-400">© 2025 - BICC Innovators. All rights
+            reserved.</div>
+    </footer>
+    <!-- footer - end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
