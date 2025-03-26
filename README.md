@@ -35,7 +35,12 @@ Current reconciliation systems rely heavily on manual oversight, leading to dela
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+![Screenshot 1](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/screenshots/1.png)
+![Screenshot 2](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/screenshots/2.png)
+![Screenshot 3](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/screenshots/3.png)
+![Screenshot 4](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/screenshots/4.png)
+![Screenshot 5](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/screenshots/5.png)
+![Screenshot 6](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/screenshots/6.png)
 
 ## 💡 Inspiration
 We were inspired by the inefficiencies in manual reconciliation processes, which are time-consuming and prone to human errors. Our project aims to automate anomaly detection using GenAI, providing real-time alerts, root-cause analysis, and improved accuracy to streamline financial reconciliation workflows.
