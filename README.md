@@ -2,7 +2,7 @@
 # 🚀 Smarter Reconciliation and Anomaly Detection using Gen AI
 
 ## 📌 Table of Contents
-- [Introduction](#introduction)
+- [Introduction](##introduction)
 - [Demo](#demo)
 - [Inspiration](#inspiration)
 - [What It Does](#what-it-does)
