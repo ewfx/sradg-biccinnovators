@@ -33,6 +33,7 @@ Current reconciliation systems rely heavily on manual oversight, leading to dela
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
+
 🖼️ Screenshots:
 
 ![Screenshot 1](https://github.com/ewfx/sradg-biccinnovators/blob/main/artifacts/screenshots/1.png)
@@ -99,7 +100,7 @@ Integration Complexity – Ensuring seamless API communication with existing rec
 
 ## 👥 Team
 - **Jay Prakash Bind** - [GitHub](https://github.com/codejay411) | [LinkedIn](https://www.linkedin.com/in/jay-prakash-bind-b0736217a/)
-- **Deepak Tiwari** - [GitHub](#) | [LinkedIn](#)
-- **Kajal Prasad** - [GitHub](#) | [LinkedIn](#)
-- **Manoranjitha** - [GitHub](#) | [LinkedIn](#)
-- **Pijush Kumar Joardar** - [GitHub](#) | [LinkedIn](#)
+- **Deepak Tiwari** - [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/deepak-tiwari-7319944b/)
+- **Kajal Prasad** - [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/kajal-prasad-999969b2/)
+- **Manoranjitha** - [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/manoranjitha-rajendran-6596a139/)
+- **Pijush Kumar Joardar** - [GitHub](#) | [LinkedIn](https://www.linkedin.com/in/pijush-joardar-91145a13/)
