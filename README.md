@@ -1,4 +1,5 @@
-# 🚀 Project Name
+
+# 🚀 Smarter Reconciliation and Anomaly Detection using Gen AI
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +15,20 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+## Smarter Reconciliation and Anomaly Detection using Gen AI
+
+We, as participants, are addressing the challenge of manual anomaly detection in reconciliation processes. Our goal is to leverage AI for real-time identification of irregularities, reducing human error and accelerating the entire workflow.
+
+### Problem Statement
+Current reconciliation systems rely heavily on manual oversight, leading to delays and potential inaccuracies. By integrating AI-driven solutions, we aim to provide immediate alerts on anomalies, offer root-cause analysis, and streamline reconciliation tasks.
+
+### Proposed Approach
+•	Leverage AI Models: Utilize LLMs (e.g., GPT, LLaMA, Falcon) to detect anomalies and categorize them based on historical patterns.
+
+•	Clustering & Analysis: Implement clustering algorithms and advanced anomaly detection techniques to reveal hidden data insights.
+
+•	Interactive Feedback: Develop a mechanism for reconcilers to confirm or refute detected anomalies, continually refining AI accuracy.
+
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,37 +38,63 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+We were inspired by the inefficiencies in manual reconciliation processes, which are time-consuming and prone to human errors. Our project aims to automate anomaly detection using GenAI, providing real-time alerts, root-cause analysis, and improved accuracy to streamline financial reconciliation workflows.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+Our project includes the following key features and functionalities:
+
+#### Anomaly Detection – Identifies anomalies using both historical and real-time reconciliation data.
+
+#### Anomaly Classification – Categorizes detected anomalies into predefined buckets for better understanding.
+
+#### AI-Powered Resolution Summaries – Generates AI-driven insights to assist in anomaly resolution.
+
+#### LLM-Enhanced Detection & Categorization – Utilizes LLM models to improve anomaly identification and classification accuracy.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Technologies, Frameworks, and Tools Used -
+
+ML & GenAI – Detect anomalies and provide insights into potential root causes.
+
+Programming Language – Python for model development and API deployment.
+
+Frameworks & Libraries – Flask (API deployment), LangChain (LLM integration), Pandas (data processing), Scikit-learn (anomaly detection), Hugging Face (AI-driven insights).
+
+Dataset – Generated historical and real-time reconciliation data for training and evaluation.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Data Quality Issues – Cleaning and preprocessing historical reconciliation data to remove inconsistencies and missing values.
+
+Real-time Processing – Optimizing ML and GenAI models for faster and more efficient anomaly detection.
+
+Integration Complexity – Ensuring seamless API communication with existing reconciliation systems for smooth deployment.
 
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone git@github.com:ewfx/sradg-biccinnovators.git
    ```
-2. Install dependencies  
+2. Go to directory  
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   cd code
    ```
-3. Run the project  
+3. Install dependencies  
    ```sh
-   npm start  # or python app.py
+   pip install -r requirements.txt (for Python)
+   ```
+4. Run the project  
+   ```sh
+   python app.py
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: HTML, CSS, JavaScript
+- 🔹 Backend: Flask
+- 🔹 Other: Hugging Face API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Jay Prakash Bind** - [GitHub](https://github.com/codejay411) | [LinkedIn](https://www.linkedin.com/in/jay-prakash-bind-b0736217a/)
+- **Deepak Tiwari** - [GitHub](#) | [LinkedIn](#)
+- **Kajal Prasad** - [GitHub](#) | [LinkedIn](#)
+- **Manoranjitha** - [GitHub](#) | [LinkedIn](#)
+- **Pijush Kumar Joardar** - [GitHub](#) | [LinkedIn](#)
