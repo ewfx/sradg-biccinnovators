@@ -6,7 +6,7 @@ import json, re
 from huggingface_hub import InferenceClient
 
 # Replace with your Hugging Face API token
-HF_API_TOKEN = "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"
+
 
 # repo_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 repo_id = "mistralai/Mistral-7B-Instruct-v0.1"
